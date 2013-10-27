@@ -13,6 +13,7 @@ def install_db
 
 	remote_file local_zip  do
 		source node['geoip'][database]['url']
+		mode "0644"
 		action :create
 		not_if { ::File.exists?(local_file) }
 	end
