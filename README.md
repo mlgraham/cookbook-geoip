@@ -16,15 +16,15 @@ Resource/Provider
 =================
 This cookbook contains LWRPs for managing GeoIP databases
 
-## Actions
+### Actions
 - :install: Installs a database
 - :uninstall: Removes a database
 - :update: Updates (or installs if needed) a database
 
-## Attribute Parameters
+### Attribute Parameters
 - database_name: Database to manage: "city" or "country"
 
-## Example
+### Example
 ```ruby
 # Update (or install if needed) a GeoLite2 country database
 geoip 'country' do
@@ -35,14 +35,14 @@ end
 Recipes
 =======
 
-## default
+### default
 
 Installs both MaxMind GeoLite2 Country and City databases
 
-## country
+### country
 
 Installs MaxMind GeoLite2 Country database
 
-## city 
+### city 
 
 Installs MaxMind GeoLite2 City database
