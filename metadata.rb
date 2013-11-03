@@ -1,5 +1,5 @@
 name              "geoip"
-maintainer        "István Szénási"
+maintainer        "Istvan Szenasi"
 maintainer_email  "szeist@gmail.com"
 license           "MIT"
 description       "Install MaxMind GeoLite2 Lite databases"
